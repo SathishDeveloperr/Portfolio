@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!---Header-->
+    <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="" class="nav_logo">Sathish Scripter</a>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_items"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_items"><a href="#about" class="nav_link active">About</a></li>
+                    <li class="nav_items"><a href="#skills" class="nav_link active">Skills</a></li>
+                    <li class="nav_items"><a href="#work" class="nav_link active">work</a></li>
+                    <li class="nav_items"><a href="#contact" class="nav_link active">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--home-->
+        <section clas="home bd_grid" id="home">
+            <div>
+                <div class="home_data"  data-aos="fade-down" >
+                    <h1 class="home_title">Hi <br> I'm <span class="home_title_color">Sathish</span><br> Web developer
+                    </h1>
+                    <a href="contact" class="button">Contact</a>
+                </div>
+                <div class="home_social"  data-aos="fade-up">
+                    <a href="#" class="home_social_icon"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#" class="home_social_icon"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="home_social_icon"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <div class="home_img">
+                    <img src="assets/Intro.png" alt="Intro Image">
+                </div>
+            </div>
+        </section>
+
+        <!--about-->
+        <section class="about section" id="about" >
+            <h2 class="section_title">About</h2>
+            <div class="about_container bd_grid">
+                <div class="about_img"   data-aos="fade-up">
+                    <img src="assets/About.png" alt="About Image">
+                </div>
+                <div >
+                    <h2 class="about_subtitle">I'm Sathish </h2>
+                    <p class="about_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, tempore nam.
+                        Doloremque cupiditate voluptatibus provident eius ab officia nesciunt vero. Ipsa nesciunt
+                        laboriosam veniam necessitatibus. Obcaecati iste voluptates, ab doloremque porro quam id
+                        voluptate assumenda dicta veritatis a ut iure dolor numquam, corrupti unde consequuntur
+                        repellendus saepe ratione reiciendis dolorum voluptatem? Laboriosam eligendi ab molestiae
+                        maiores sint possimus libero numquam! Vero eligendi nihil maxime quibusdam ducimus fugiat
+                        aperiam natus optio similique distinctio, eum perspiciatis harum minima ad id velit doloribus.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--skills-->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">
+                Skills
+            </h2>
+            <div class="skills_container bd_grid"  data-aos="fade-up">
+                <div >
+                    <h2 class="skills_subtitle">Profession Skills</h2>
+                    <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur
+                        libero ullam autem velit ipsa. Voluptatem alias tempora vitae totam quibusdam! Cupiditate
+                        numquam ipsum tempora veniam voluptas, officiis iure dolorem ullam aut. Laborum hic quam nostrum
+                        pariatur debitis ipsum? Vero recusandae sapiente consequuntur rem praesentium dolorem, nesciunt
+                        reiciendis unde earum.</p>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class='bx bxl-html5 skill_icon'></i>
+                        <span class="skill_name">HTML 5</span>
+                    </div>
+                    <div>
+                        <span class="skill_percentage">95%</span>
+                    </div>
+                    <div class="skill_bar skill_html"></div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class='bx bxl-css3 skill_icon'></i>
+                        <span class="skill_name">CSS 3</span>
+                    </div>
+                    <div>
+                        <span class="skill_percentage">85%</span>
+                    </div>
+                    <div class="skill_bar skill_css"></div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class='bx bxs-file-js skill_icon'></i>
+                        <span class="skill_name">JAVASCRIPT</span>
+                    </div>
+                    <div>
+                        <span class="skill_percentage">75%</span>
+                    </div>
+                    <div class="skill_bar skill_JS"></div>
+
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class='bx bxs-palette skill_icon'></i>
+                        <span class="skill_name">UI UX DESIGN</span>
+                    </div>
+                    <div>
+                        <span class="skill_percentage">75%</span>
+                    </div>
+                    <div class="skill_bar skill_UI"></div>
+                </div>
+
+                <div  data-aos="fade-up">
+                    <img src="assets/skills.png" alt="Skills Image">
+                </div>
+            </div>
+        </section>
+
+        <!--work-->
+        <section class="work section" id="work">
+            <h2 class="section_title">Work</h2>
+            <div class="work_container bd_grid">
+                <div class="work_img">
+                    <img src="assets/w1.png" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="assets/w2.png" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="assets/w3.png" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="assets/w4.png" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="assets/w5.png" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="assets/w6.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+
+        <section class="contact section" id="contact"  data-aos="fade-up">
+            <h2 class="section_title">Contact</h2>
+
+            <div class="contact_container">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class="control_input">
+                    <input type="text" placeholder="Email" class="control_input">
+                    <textarea name="" class="control_input" id="" cols="0" rows="10"></textarea>
+                    <input type="button" value="send" class="control_button button">
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="footer_title">Sathish</p>
+            <div class="footer_socials"  data-aos="fade-up">
+                <a href="#" class="footer_social_icon"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#" class="footer_social_icon"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer_social_icon"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <p> @ 2024 copyright all right reserved.</p>
+        </footer>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: false,
+        });
+    </script>
+</body>
+
+</html>
